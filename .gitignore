@@ -1,0 +1,14 @@
+# Base de datos generada localmente (se recrea con data_generation/generate_db.py)
+*.db
+
+# Variables de entorno reales (el .env.example sí se versiona)
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
