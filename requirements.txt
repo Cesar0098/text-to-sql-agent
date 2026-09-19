@@ -1,5 +1,5 @@
-# Dependencias del núcleo del agente (agent_core/, prompts/, data_generation/).
-# streamlit se agrega en el paso siguiente, cuando se arme app.py.
+# Dependencias del núcleo del agente (agent_core/, prompts/, data_generation/)
+# y de la interfaz (app.py).
 
 anthropic==1.5.0
 sqlalchemy==2.0.53
@@ -7,6 +7,7 @@ pandas==3.0.2
 tabulate==0.10.0
 faker==40.39.0
 python-dotenv==1.2.2
+streamlit==1.64.0
 
 # Si conectás el agente a otra base en lugar de la demo SQLite, sumá
 # también el driver correspondiente (no vienen incluidos porque el
